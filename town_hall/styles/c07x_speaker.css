@@ -80,7 +80,7 @@ aside {
 	float: right;
 	padding: 0 0 20px 20px;
 }
-aside nav_list a {
+aside nav_list {
     display: block; /* Make the link a block element */
     padding: 10px 15px; /* Padding for the links */
     border: 1px solid black; /* Black border */
