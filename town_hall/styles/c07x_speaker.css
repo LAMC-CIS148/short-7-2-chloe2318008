@@ -81,8 +81,13 @@ aside {
 	padding: 0 0 20px 20px;
 }
 aside nav_list a {
+    display: block; /* Make the link a block element */
+    padding: 10px 15px; /* Padding for the links */
     border: 1px solid black; /* Black border */
-    border-radius: 8px; /* Rounded corners */	
+    border-radius: 8px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Default text color */
+    box-shadow: 2px 2px 5px #800000; /* Box shadow */
 }
 aside h2 {
 	color: #800000;
