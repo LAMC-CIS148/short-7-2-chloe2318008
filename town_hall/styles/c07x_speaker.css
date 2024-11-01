@@ -80,7 +80,21 @@ aside {
 	float: right;
 	padding: 0 0 20px 20px;
 }
-aside nav_list {
+#nav_list {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav_list li {
+    margin: 10px 0; /* Space between list items */
+}
+
+#nav_list a {
     display: block; /* Make the link a block element */
     padding: 10px 15px; /* Padding for the links */
     border: 1px solid black; /* Black border */
