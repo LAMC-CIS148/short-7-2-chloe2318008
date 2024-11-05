@@ -92,9 +92,6 @@ aside {
 
 #nav_list li {
     margin: 10px 0; /* Space between list items */
-}
-
-#nav_list a {
     padding: 10px 15px; /* Padding for the links */
     border: 1px solid black; /* Black border */
     border-radius: 8px; /* Rounded corners */
