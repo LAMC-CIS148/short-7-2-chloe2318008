@@ -80,25 +80,6 @@ aside {
 	float: right;
 	padding: 0 0 20px 20px;
 }
-#nav_list {
-    margin: 0;
-    padding: 0;
-}
-
-#nav_list ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#nav_list li {
-    margin: 10px 0; /* Space between list items */
-    padding: 10px 15px; /* Padding for the links */
-    border: 1px solid black; /* Black border */
-    border-radius: 8px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    color: black; /* Default text color */
-    box-shadow: 2px 2px 5px #800000; /* Box shadow */
-}
 aside h2 {
 	color: #800000;
 	font-size: 130%;
@@ -113,6 +94,31 @@ aside img {
 	padding-bottom: 1em;
 }
 
+/* the styles for the navigation list */
+#nav_list ul { 
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 1.5em; }
+#nav_list ul li { 
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px double black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 0 #800000;
+	background-image: url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 .5em .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_list ul li a.current {
+	color: #800000;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
